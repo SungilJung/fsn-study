@@ -1,5 +1,7 @@
 import React from "react";
 import "./App.css";
+import ControlledComonent from "./components/2-10.form/ControlledComonent";
+import UnControlledCompoenet from "./components/2-10.form/UnControlledComponent";
 import Extraction from "./components/2-4.props/Extraction/Extraction";
 import FunctionComponent from "./components/2-5.state/FunctionComponent";
 import Event from "./components/2-7.event/Event";
@@ -10,13 +12,15 @@ import Composition from "./components/Composition";
 function App() {
   return (
     <div className="App">
-      <Composition />
+      {/* <Composition />
       <Extraction />
       <FunctionComponent />
       <Event />
       <Condition />
       <List />
-      <Blog />
+      <Blog /> */}
+      <ControlledComonent />
+      <UnControlledCompoenet />
     </div>
   );
 }
